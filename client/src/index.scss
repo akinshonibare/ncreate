@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  :global {
+    .btn-std {
+      color: black;
+      padding: 10px;
+      border: solid 1px black;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-family: 'Open Sans';
+      margin: 5px;
+      transition: all ease .3s;
+      &:hover {
+        filter: drop-shadow(3px 3px 4px white);
+        box-shadow: inset 0 0 0 2px white;
+      }
+    }
+  }
+}

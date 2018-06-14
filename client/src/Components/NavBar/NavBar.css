@@ -1,0 +1,15 @@
+.navbar {
+  margin: 0 !important;
+  width: 100%;
+  border: none !important;
+  background: white !important;
+}
+
+.navItem a {
+  font-weight: bold;
+  color: #d3d3d3 !important;
+}
+
+.nav {
+  text-align: center
+}
