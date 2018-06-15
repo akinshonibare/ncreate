@@ -10,7 +10,7 @@ import Music from "./Components/Pages/Music/Music";
 import Youtube from "./Components/Pages/Youtube/Youtube";
 import LogIn from "./Components/LogIn/LogIn";
 import SignUp from "./Components/SignUp/SignUp";
-import NewCreator from "./Components/Pages/NewCreator/NewCreator";
+import Creator from "./Components/Pages/Creator/Creator";
 
 const routes = (
   <Router>
@@ -24,7 +24,7 @@ const routes = (
         <Route path="/blog" component={Blog} />
         <Route path="/login" component={LogIn} />
         <Route path="/signup" component={SignUp} />
-        <Route path="/newcreator" component={NewCreator} />
+        <Route path="/creator" component={Creator} />
       </Switch>
     </App>
   </Router>

@@ -54,9 +54,9 @@ export class Header extends Component {
           <Navbar.Collapse>
             <Nav pullRight>
               <NavItem
-                active={this.isActive("/newcreator")}
+                active={this.isActive("/creator")}
                 eventKey={1}
-                onClick={() => this.navigateTo("/newcreator")}
+                onClick={() => this.navigateTo("/creator")}
                 className={styles.navItem}
               >
                 become a creator
